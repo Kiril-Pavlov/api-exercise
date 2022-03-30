@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(48, 45, 45);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 64px;
+    font-family: 'Bitter', serif;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Bitter', serif;
+    font-style: italic;
+}
+
+#likedChampions{
+    background-color: red;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px 0px 0px 10px;
+    position: fixed;
+    top: 30px;
+    right: 0px;
+}
+
+.search-container{
+    width: 40%;
+    margin: 20px 30%;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-gap: 5px;
+    height: 40px;
+}
+
+#search{
+    font-size: 20px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#search-button{
+    font-size: 20px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+#heroes-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15px;
+    width: 60%;
+    margin: 20px 10%;
+}
+
+
+.championCard{ 
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.champ-name{
+    font-size: 24px;
+    padding: 5px;
+    margin: 5px;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.champ-tags{
+    font-size: 18px;
+    font-style: italic;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.like-button{
+    padding: 5px 20px;
+    margin: 5px;
+    font-size: 20px;
+    border: 0px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+
+h3{
+    position: absolute;
+    top: 240px;
+    right: 5%;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Bitter', serif;
+    font-style: italic;
+}
+
+#liked-heroes-container{
+    position: absolute;
+    width: 20%;
+    top: 300px;
+    right: 5%;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+
+#liked-heroes-container h3{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Bitter', serif;
+    font-style: italic;
+}
+
+.likedChampionCard{
+    width: 160px;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.likedChampionCard img{
+    width: 150px;
+    padding: 5px;
+}
+
+.liked-champ-name{
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+    margin: 2px;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.liked-champ-tags{
+    font-size: 12px;
+    font-style: italic;
+    padding: 0px;
+    margin: 5px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
