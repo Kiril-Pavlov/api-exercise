@@ -82,6 +82,10 @@ function showLikedChampions(){
     for(let i=0;i<likedChampionsList.length;i++){
         let likedChampionCard = document.createElement('div');
         likedChampionCard.classList.add('likedChampionCard');
+        likedChampionCard.style.cursor="pointer";
+        likedChampionCard.addEventListener("click", ()=>{
+            window.open(`https://app.mobalytics.gg/lol/champions/${likedChampionsList[i].name.toLowerCase()}/build`,'_blank').focus();
+        })
         likedChampionCard.innerHTML = `
             <img src="${likedChampionsList[i].img}" alt="${likedChampionsList[i].name}">
             <p class="liked-champ-name">${likedChampionsList[i].name}</p>
